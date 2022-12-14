@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+
+.savoir-faire {
+  margin-bottom: 80px;
+}
+
+.image-savoir-faire {
+  width: 826px;
+  height: 436px;
+}
+
+.text_savoir_faire {
+  width: 680px;
+  height: 310px;
+  margin-top: -250px;
+  margin-left: 500px;
+  background-color: white;
+  position: absolute;
+}
+.text_savoir_faire h2 {
+  margin: 40px;
+  text-align: start;
+}
+.text_savoir_faire p {
+  margin: 40px;
+  font-family: Baskerville;
+  font-size: 19px;
+}
+
+.notre-concept {
+  margin-bottom: 80px;
+}
+
+.image-notre-concept {
+  height: 810px;
+  width: 100%;
+  background: linear-gradient(to right, black, 80%, transparent), url("../photos_boulangerie/image_boulangerie_théatre.jpg");
+  background-size: cover;
+  background-attachment: initial;
+  background-position: center;
+}
+
+.text-notre-concept {
+  width: 680px;
+  height: 750px;
+  margin-top: -810px;
+  margin-right: 500px;
+  color: white;
+}
+.text-notre-concept h2 {
+  margin: 40px;
+  text-align: center;
+}
+.text-notre-concept p {
+  margin-left: 40px;
+  font-family: sofia;
+  font-size: 19px;
+}
+
+.avis_client {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.maps {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+/*# sourceMappingURL=accueil.css.map */

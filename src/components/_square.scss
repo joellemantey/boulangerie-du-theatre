@@ -1,0 +1,41 @@
+.square{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+};
+
+.image-square {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 600px;
+  & img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+  }
+};
+
+
+.detail-pain {
+  width: 600px;
+  background-color: $secondary ;
+  & h3 {
+    color: $primary;
+  }
+  & li{color: $primary;}
+};
+
+.etiquette{
+  width: 130px;
+  height: 130px;
+  background-color: $secondary;
+  justify-content: center;
+  display: flex;
+  margin-top: -365px;
+  margin-left: 365px;
+  position: absolute;
+  & p{
+    align-self: center;
+    color: $primary;
+  }
+};
