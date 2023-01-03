@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Boulangerie du théâtre</title>
+    <link rel="stylesheet" href="font-awesome/font-awesome.min.css">
+    <link rel="stylesheet" href="styleCompile.css">
+    <link rel="stylesheet" href="page/accueil.css">
+    <link rel="stylesheet" href="page/commande_patisserie.css">
+    <link rel="stylesheet" href="page/info_nutritionnelle.css">
+
+
+</head>
+<body>
+
+<header>
+    <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Navigation principale">
+        <div class="menu">
+            <ul aria-expanded="false" class="nav-menu">
+                <li class="current_page_item">
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li class="page_item page-item-6">
+                    <a href="boulangerie.html">Boulangerie</a>
+                </li>
+                <li class="page_item page-item-6">
+                    <a href="patisserie.html">Pâtisserie</a>
+                </li>
+                <img src="#">
+                <p>La Boulangerie du théâtre</p>
+                <li class="page_item page-item-6">
+                    <a href="traiteur.html">Traiteur</a>
+                </li>
+                <li class="page_item page-item-6">
+                    <a href="snack.html">Snack</a>
+                </li>
+                <li class="page_item page-item-9">
+                    <a href="http://localhost:8888/boulangerie_du_theatre/mon-compte/">Mon compte</a>
+                </li>
+                <li class="page_item page-item-7">
+                    <a href="http://localhost:8888/boulangerie_du_theatre/panier/">Panier</a>
+                </li>
+                <li class="page_item page-item-8">
+                    <a href="http://localhost:8888/boulangerie_du_theatre/commander/">Validation de la commande</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="image-bandeau">
+        <img src="photos_boulangerie/buche_douceurs_dhiver.jpg">
+    </div>
+</header>
+
+<cite>" Nous voulons de la vie au théâtre, et du théâtre dans la vie.
+    <p>De De Louis Jouvet</p>
+</cite>
+
+<div class="filtre">
+    <p>Filtre par allergène</p>
+    <select name="allergene" class="allergene" id="allergene">
+        <option value="Blé">Blé</option>
+        <option value="Gluten">Gluten</option>
+        <option value="Lait">Lait</option>
+        <option value="Oeufs">Oeufs</option>
+        <option value="Soja">Soja</option>
+        <option value="Sulfite">Sulfite</option>
+    </select>
+    <div class="btn">
+        <button class="btn_reserve">Appliquer</button>
+    </div>
+</div>
+
+<div  class="card_recap_produits">
+    <img src="photos_boulangerie/buche_douceurs_dhiver.jpg" alt="eclair_chocolat">
+    <div class="card_recap_pdt">
+        <h3>La Bûche Douceurs d’Hiver</h3>
+        <p>Une bûche de Noël qui plus est originale.
+            Elle est composé d’une mousse mandarine et  un coulis framboise le tout dosé avec subtilité.
+            Le crémeux mandarine vous fera fondre autant que le coulis de framboise. Ce dessert à tout pour plaire et se faire une place sur les plus belles tables.
+        </p>
+        <div class="btn btn--patisserie">
+            <button class="btn_information btn__information--patisserie"><a href="info_nutritionnelle.html">Information nutritionnelles</a> </button>
+        </div>
+    </div>
+    <div class="info_tarif_cde">
+        <h3>8 personnes</h3>
+        <p>40,00€</p>
+        <div class="commande">
+            <button>-</button>
+            <input type="number">
+            <button>+</button>
+        </div>
+        <button class="btn_reserve btn__reserve--patisserie"">Ajout au panier</button>
+    </div>
+</div>
+<div  class="card_recap_produits">
+    <img src="photos_boulangerie/buche_vaucluse.jpg" alt="st_honore">
+    <div class="card_recap_pdt">
+        <h3>La Croquante</h3>
+        <p>La croquante nous rappel les grand évènement. Le choux est la  pâtisserie de notre enfance qui nous faisait ouvrir grand la bouche et qu’elle est souvent attachée à des souvenirs de jeunesse.
+            À tous les âges, on apprécie le velouté de la crème pâtissière à la vanille, onctueuse à souhait, qui se dévoile une fois percée la pâte à choux protectrice et ce caramel croquant.
+        </p>
+        <div class="btn btn--patisserie">
+            <button class="btn_information btn__information--patisserie"><a href="info_nutritionnelle.html">Information nutritionnelles</a> </button>
+        </div>
+    </div>
+    <div class="info_tarif_cde">
+        <h3>8 personnes</h3>
+        <p>50,00€</p>
+        <div class="commande">
+            <button>-</button>
+            <input type="number">
+            <button>+</button>
+        </div>
+        <button class="btn_reserve btn__reserve--patisserie">Ajout au panier</button>
+    </div>
+</div>
+<div  class="card_recap_produits">
+    <img src="photos_boulangerie/buche_ambre.jpeg" alt="eclair_chocolat">
+    <div class="card_recap_pdt">
+        <h3>La Bûche Ambre</h3>
+        <p> La bûche Ambre , création d’exception, ne déroge pas à la règle.
+            Entre praliné et chocolat, un cœur de praliné aux amandes caramélisées, broyées à l’ancienne. Le tout repose sur un biscuit moelleux aux amandes croquantes, juste sablées. L’intensité d’une mousse au chocolat aux notes acidulées 69%  enrobe l’ensemble dans une impression d’extrême légèreté.
+        </p>
+        <div class="btn btn--patisserie">
+            <button class="btn_information btn__information--patisserie"><a href="info_nutritionnelle.html">Information nutritionnelles</a> </button>
+        </div>
+    </div>
+    <div class="info_tarif_cde">
+        <h3>8 personnes</h3>
+        <p>35,00€</p>
+        <div class="commande">
+            <button>-</button>
+            <input type="number">
+            <button>+</button>
+        </div>
+        <button class="btn_reserve btn__reserve--patisserie">Ajout au panier</button>
+    </div>
+</div>
+
+
+<footer>
+    <div class="footer">
+        <div class="a_propos">
+            <nav>
+                <h3>A PROPOS</h3>
+                <ul>
+                    <li>CGV</li>
+                    <li>Mentions Légales</li>
+                    <li>Conditions générales de vente</li>
+                    <li>Politique de confidentialité</li>
+                    <li>Conditions générales d’utilisation</li>
+                    <li>Les Avis Clients</li>
+                    <li>FAQ</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="adresse-tel">
+            <h3>Notre adresse</h3>
+            <p>Boulangerie du théâtre</p>
+            <p>29 place Pierre Renet</p>
+            <p>70000 VESOUL</p>
+            <p>Téléphone : 03 84 96 35 22</p>
+        </div>
+        <div class="horaires">
+            <h3>Nos Horaires</h3>
+            <p>Du Lundi au Samedi : 06h00 - 19h00</p>
+            <p>Dimanche : 06h00 - 13h00</p>
+        </div>
+        <div class="espace-facebook">
+            <p>Pour ne pas manquez l’activité de la Boulangerie du Théâtre</p>
+            <div class="facebook">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                <p>Facebook</p>
+            </div>
+        </div>
+    </div>
+</footer>

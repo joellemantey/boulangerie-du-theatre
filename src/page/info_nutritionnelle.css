@@ -1,0 +1,26 @@
+.titre_nutritionnelle {
+  display: flex;
+  justify-content: center;
+}
+.titre_nutritionnelle ul {
+  flex-direction: row;
+  display: flex;
+}
+.titre_nutritionnelle li {
+  margin: 0 65px 20px;
+  list-style: none;
+}
+
+.trait {
+  width: 830px;
+  margin-left: 305px;
+}
+
+.detail_nutritionnelle {
+  margin: 20px 0 80px 320px;
+}
+.detail_nutritionnelle p {
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=info_nutritionnelle.css.map */

@@ -5,7 +5,6 @@ cite {
   align-items: center;
   margin-bottom: 80px;
 }
-
 cite > p {
   margin-left: 350px;
 }
@@ -27,12 +26,10 @@ cite > p {
   background-color: white;
   position: absolute;
 }
-
 .text_savoir_faire h2 {
   margin: 40px;
   text-align: start;
 }
-
 .text_savoir_faire p {
   margin: 40px;
   font-family: Baskerville;
@@ -59,12 +56,10 @@ cite > p {
   margin-right: 500px;
   color: white;
 }
-
 .text-notre-concept h2 {
   margin: 40px;
   text-align: center;
 }
-
 .text-notre-concept p {
   margin-left: 40px;
   font-family: sofia;
@@ -76,12 +71,10 @@ cite > p {
   justify-content: space-around;
   margin-left: 140px;
 }
-
 .avis_client .btn_information {
   width: 56px;
   margin-bottom: 0;
 }
-
 .avis_client .btn {
   margin-bottom: 0;
   justify-content: start;
@@ -99,7 +92,6 @@ cite > p {
   flex-direction: column;
   align-self: center;
 }
-
 .nom_avis p {
   margin: 10px;
 }
@@ -108,11 +100,9 @@ cite > p {
   display: flex;
   margin: 10px 0px;
 }
-
 .avis_date i {
   margin-left: 6px;
 }
-
 .avis_date p {
   margin-left: 20px;
 }
@@ -126,7 +116,5 @@ cite > p {
   text-align: center;
   margin-bottom: 80px;
 }
-
-/*# sourceMappingURL=accueil.css.map */
 
 /*# sourceMappingURL=accueil.css.map */

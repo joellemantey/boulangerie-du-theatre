@@ -1,9 +1,11 @@
 .texte-explication{
   display: flex;
   justify-content: center;
-  width: 830px;
-  height: 180px;
   margin-bottom: 80px;
+
+  & p {
+    width: 830px;
+  }
 }
 
 

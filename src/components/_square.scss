@@ -19,10 +19,21 @@
 .detail-pain {
   width: 600px;
   background-color: $secondary ;
+
   & h3 {
     color: $primary;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
   }
-  & li{color: $primary;}
+  & li, p{
+    color: $primary;
+    padding: 10px;
+  }
+
+  & ul,p {
+   margin: 50px;
+  }
 };
 
 .etiquette{
@@ -31,11 +42,12 @@
   background-color: $secondary;
   justify-content: center;
   display: flex;
-  margin-top: -365px;
-  margin-left: 365px;
+  margin-top: -445px;
+  margin-left: 355px;
   position: absolute;
   & p{
     align-self: center;
     color: $primary;
   }
 };
+

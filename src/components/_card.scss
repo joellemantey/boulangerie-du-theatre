@@ -18,3 +18,81 @@
     height: 265px;
   }
 }
+
+.card-body .card-title{
+text-align: center;
+  margin: 20px;
+}
+
+.card-body .card-text{
+  margin: 10px;
+}
+
+.card_recap_produits{
+  display: flex;
+  //justify-content: space-around;
+  border: 1px solid #6A6767;
+  border-radius: 10px;
+  width: 1160px;
+  margin-bottom: 50px;
+  margin-left: 80px;
+
+  & img{
+    object-fit: cover;
+    width: 210px;
+    height: 210px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+}
+
+.card_recap_pdt{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 16px 0px 16px 20px;
+  width: 690px;
+
+  & p{
+    width: 690px;
+  }
+}
+
+.btn--patisserie{
+  justify-content: start;
+  margin-bottom: 0;
+  & .btn__information--patisserie{
+    margin-left: 0;
+  }
+}
+
+.info_tarif_cde{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   margin: 16px 0px 16px 20px;
+  & .btn__reserve--patisserie{
+    margin-left: 0;
+    width: 150px ;
+  }
+}
+
+.commande input{
+  width:40px ;
+}
+
+.card_produit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_recap_produits--nutritionnelle{
+  width: 800px;
+
+  & p{
+    width: 500px;
+  }
+}
+

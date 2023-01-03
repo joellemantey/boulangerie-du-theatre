@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="font-awesome/font-awesome.min.css">
     <link rel="stylesheet" href="styleCompile.css">
     <link rel="stylesheet" href="page/accueil.css">
+    <link rel="stylesheet" href="page/commande_patisserie.css">
+    <link rel="stylesheet" href="page/info_nutritionnelle.css">
+
 </head>
 <body>
 
@@ -20,15 +23,15 @@
                     <a href="boulangerie.html">Boulangerie</a>
                 </li>
                 <li class="page_item page-item-6">
-                    <a href="http://localhost:8888/boulangerie_du_theatre/patisserie/">Pâtisserie</a>
+                    <a href="patisserie.html">Pâtisserie</a>
                 </li>
                 <img src="#">
                 <p>La Boulangerie du théâtre</p>
                 <li class="page_item page-item-6">
-                    <a href="http://localhost:8888/boulangerie_du_theatre/traiteur/">Traiteur</a>
+                    <a href="traiteur.html">Traiteur</a>
                 </li>
                 <li class="page_item page-item-6">
-                    <a href="http://localhost:8888/boulangerie_du_theatre/snack/">Snack</a>
+                    <a href="snack.html">Snack</a>
                 </li>
                 <li class="page_item page-item-9">
                     <a href="http://localhost:8888/boulangerie_du_theatre/mon-compte/">Mon compte</a>
@@ -61,19 +64,19 @@
         </a>
     </div>
     <div class="item-nav">
-        <a href="http://localhost:8888/boulangerie_du_theatre/patisserie">
+        <a href="patisserie.html">
             <img src="photos_boulangerie/patisserie3.jpeg"></img>
             <p>Nos délicieuses pâtisserie</p>
         </a>
     </div>
     <div class="item-nav">
-        <a href="http://localhost:8888/boulangerie_du_theatre/traiteur">
+        <a href="traiteur.html">
             <img src="photos_boulangerie/Traiteur.jpg"></img>
             <p>Le savoir-faire d'un traiteur</p>
         </a>
     </div>
     <div class="item-nav">
-        <a href="http://localhost:8888/boulangerie_du_theatre/snack">
+        <a href="snack.html">
             <img src="photos_boulangerie/sandwich.webp"></img>
             <p>Manger sur le pouce</p>
         </a>
@@ -118,49 +121,71 @@
 
 <div class="avis_client">
     <div class="card-avis_client">
+        <div class="haut_card">
         <img src="photos_boulangerie/quentin%20delcey.png" alt="#">
+            <div class="nom_avis">
         <p class="nom">Quentin Delcey</p>
         <p>Local Guide - 35 avis</p>
+            </div>
+        </div>
+        <div class="avis_date">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
         <p>il y a 3 semaines</p>
+        </div>
         <p>Une magnifique boulangerie en ville, personnel super agréable accueillant souriant avec énormément de choix
             et super bon.
         </p>
     </div>
     <div class="card-avis_client">
+        <div class="haut_card">
         <img src="photos_boulangerie/jean-marc.png" alt="#">
+            <div class="nom_avis">
         <p class="nom">Jean-Charles Gaffuri</p>
         <p>Local Guide - 93 avis</p>
+            </div>
+        </div>
+        <div class="avis_date">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
         <i class="fa fa-star-o"></i>
         <p>il y a 2 mois</p>
+        </div>
         <p>Une très belle boulangerie qui vous offrira un grand choix de spécialités boulangères et pâtissières. Les
             produits sont bons, jolis et donnent envie. …
         </p>
     </div>
     <div class="card-avis_client">
+        <div class="haut_card">
         <img src="photos_boulangerie/sarah.png" alt="#">
+            <div class="nom_avis">
         <p class="nom">Sarah Vial</p>
         <p>Local Guide - 105 avis</p>
+            </div>
+        </div>
+        <div class="avis_date">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
         <i class="fa fa-star-o"></i>
         <i class="fa fa-star-o"></i>
         <p>il y a 6 mois</p>
+        </div>
         <p>J adore cette boulangerie .. tout est beau bon et surtout le pain au cacao ... les patrons sont agréables. Je
             ne suis pas de Vesoul mais ...
         </p>
-        <button>Plus</button>
+        <div class="btn">
+        <button class="btn_information">Plus</button>
+        </div>
     </div>
-    <button>Voir tous les avis</button>
+    <div class="btn">
+    <button class="btn_reserve">Voir tous les avis</button>
+    </div>
 </div>
 
 <div class="maps">
@@ -169,40 +194,42 @@
 
 <footer>
     <div class="footer">
-    <div class="a propos">
-        <nav>
-            <p>A PROPOS</p>
-            <ul>
-                <li>CGV</li>
-                <li>Mentions Légales</li>
-                <li>Conditions générales de vente</li>
-                <li>Politique de confidentialité</li>
-                <li>Conditions générales d’utilisation</li>
-                <li>Les Avis Clients</li>
-                <li>FAQ</li>
-            </ul>
-        </nav>
-    </div>
-    <div class="adresse-tel">
-        <p>Notre adresse</p>
-        <p>Boulangerie du théâtre</p>
-        <p>29 place Pierre Renet</p>
-        <p>70000 VESOUL</p>
-        <p>Téléphone : 03 84 96 35 22</p>
-    </div>
-    <div class="horaires">
-        <p>Nos Horaires</p>
-        <p>Du Lundi au Samedi : 06h00 - 19h00</p>
-        <p>Dimanche : 06h00 - 13h00</p>
-    </div>
-    <div class="espace-facebook">
-        <p>Pour ne pas manquez l’activité de la Boulangerie du Théâtre</p>
-        <div class="facebook">
-            <i class="fa fa-facebook-official" aria-hidden="true"><p>Facebook</p></i>
+        <div class="a_propos">
+            <nav>
+                <h3>A PROPOS</h3>
+                <ul>
+                    <li>CGV</li>
+                    <li>Mentions Légales</li>
+                    <li>Conditions générales de vente</li>
+                    <li>Politique de confidentialité</li>
+                    <li>Conditions générales d’utilisation</li>
+                    <li>Les Avis Clients</li>
+                    <li>FAQ</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="adresse-tel">
+            <h3>Notre adresse</h3>
+            <p>Boulangerie du théâtre</p>
+            <p>29 place Pierre Renet</p>
+            <p>70000 VESOUL</p>
+            <p>Téléphone : 03 84 96 35 22</p>
+        </div>
+        <div class="horaires">
+            <h3>Nos Horaires</h3>
+            <p>Du Lundi au Samedi : 06h00 - 19h00</p>
+            <p>Dimanche : 06h00 - 13h00</p>
+        </div>
+        <div class="espace-facebook">
+            <p>Pour ne pas manquez l’activité de la Boulangerie du Théâtre</p>
+            <div class="facebook">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    <p>Facebook</p>
+            </div>
         </div>
     </div>
-    </div>
 </footer>
+
 
 </body>
 </html>
